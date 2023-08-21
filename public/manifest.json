@@ -1,0 +1,17 @@
+{
+  "name": "Willhaben Rental Mapper",
+  "description": "Willhaben Rental Mapper extension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Willhaben Rental Mapper",
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "willhaben.png",
+      "128": "willhaben.png"
+    }
+  },
+
+  "permissions": ["scripting", "tabs", "activeTab"],
+  "host_permissions": ["https://www.willhaben.at/"]
+}
